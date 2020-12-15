@@ -32,6 +32,12 @@ visualize
 gprof2dot -f pstats profile_hello.pstats | dot -Tpng -o profile_hello.png
 ```
 
+or
+
+```shell
+bash visualize.bash profile_hello.pstats  # this will output profile_hello.png
+```
+
 ## Results
 
 output of analyze.py
