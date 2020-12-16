@@ -42,7 +42,7 @@ bash visualize.bash profile_hello.pstats  # this will output profile_hello.png
 
 output of analyze.py
 
-``shell
+```shell
 $ python analyze.py profile_hello.pstats
 ['analyze.py', 'profile_hello.pstats']
 Tue Dec 15 10:50:35 2020    profile_hello.pstats
